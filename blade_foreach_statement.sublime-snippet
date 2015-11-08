@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+@foreach (\$${1:variable} as \$${2:key})
+	${3:# code...}
+@endforeach
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bforeach</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>@foreach () ... @endforeach</description>
+</snippet>
