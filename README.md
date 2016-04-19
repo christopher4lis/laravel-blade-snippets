@@ -1,4 +1,4 @@
-# laravel-blade-sublime-snippets 
+# laravel-blade-snippets 
 A library of sublime snippets for Laravel Blade.
 
 ##Installation
