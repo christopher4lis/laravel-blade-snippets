@@ -10,13 +10,12 @@ A library of sublime snippets for Laravel Blade.
 ##Usage
 |  Trigger   	|  Result |
 |:--------------|-------------------------------------------------|
-
-|  if        	|  `@if (condition) @endif`
-|  elseif       |  `@elseif (condition)` 
-|  else        	|  `@else` 
-|  extends    	|  `@extends('bladeFile: String')`           
-|  foreach      |  `@foreach () ... @endforeach` 
-|  section		|  `@section('sectionName: String')`         
-|  stop     	|  `@stop`                                        
-|  unesc        |  `{!! unescaped data !!}` 
-|  yield        |  `@yield('name: String')` 
+|  if        	|  `@if (condition) @endif`						  |
+|  elseif       |  `@elseif (condition)`						  | 
+|  else        	|  `@else` 										   |
+|  extends    	|  `@extends('bladeFile: String')`           	  |
+|  foreach      |  `@foreach () ... @endforeach` 				  | 
+|  section		|  `@section('sectionName: String')`         	  |
+|  stop     	|  `@stop`                                        |
+|  unesc        |  `{!! unescaped data !!}` 					  |
+|  yield        |  `@yield('name: String')` 					  |
