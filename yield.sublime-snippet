@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-@section('${1:sectionName: String}')
+@yield('${1:name: String}')
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>@section</tabTrigger>
+	<tabTrigger>yield</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
-	<description>@extends('sectionName: String')</description>
+	<description>@yield('name: String')</description>
 </snippet>
