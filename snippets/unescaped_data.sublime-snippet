@@ -3,7 +3,8 @@
 {!! ${1:unescaped data} !!}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>echounescaped</tabTrigger>
+	<tabTrigger>unesc</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
+	<description>{!! unescaped data !!}</description>
 </snippet>
